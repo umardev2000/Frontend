@@ -1,0 +1,193 @@
+@import "../base/global.css";
+main {
+    height: 1800px;
+}
+
+.line {
+    /* position: absolute;
+   top: 150px;
+   left: 300px; */
+    margin-top: 100px;
+    margin-left: 130px;
+}
+
+.our {
+    margin-left: 250px;
+    margin-top: -15px;
+}
+
+.city {
+    margin-top: 50px;
+    margin-left: 200px;
+    font-size: 56px;
+}
+
+.et {
+    margin-left: 200px;
+    margin-top: 50px;
+    line-height: 160%;
+}
+
+.vivera {
+    margin-left: 200px;
+    margin-top: 30px;
+    line-height: 160%;
+}
+
+.cons {
+    margin-left: 200px;
+    margin-top: 30px;
+    line-height: 160%;
+}
+
+.img2 {
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.cool {
+    font-size: 48px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.sed {
+    margin-left: 200px;
+    margin-top: 50px;
+    line-height: 160%;
+}
+
+.li {
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+.pulvinar {
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+.qwe {
+    height: 500px;
+    width: 100%;
+    background-color: #EBF0F9;
+}
+
+.icon {
+    position: relative;
+    left: 238px;
+    top: 100px;
+}
+
+.week {
+    margin-left: 300px;
+    margin-top: 65px;
+    font-size: 24px;
+}
+
+.dol {
+    margin-top: 10px;
+    line-height: 160%;
+    margin-left: 300px;
+}
+
+.asdf {
+    margin-top: -200px;
+    margin-left: 700px;
+}
+
+.qwerty {
+    margin-top: -200px;
+    margin-left: 700px;
+}
+
+section {
+    height: 600px;
+    width: 100%;
+}
+
+.tre {
+    height: 450px;
+    width: 400px;
+    background-color: rgb(236, 232, 232);
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.misson {
+    position: relative;
+    top: 100px;
+    margin-left: 60px;
+}
+
+.amet {
+    position: relative;
+    top: 120px;
+    margin-left: 60px;
+    line-height: 200%;
+}
+
+.see {
+    margin-top: 200px;
+    margin-left: 60px;
+    background-color: white;
+    width: 132px;
+    border: none;
+    height: 51px;
+}
+
+.tre2 {
+    height: 450px;
+    width: 400px;
+    background-color: rgb(236, 232, 232);
+    margin-left: 700px;
+    margin-top: -450px;
+}
+
+.tre3 {
+    height: 450px;
+    width: 400px;
+    background-color: rgb(236, 232, 232);
+    margin-left: 1200px;
+    margin-top: -450px;
+}
+
+.secti {
+    height: 400px;
+}
+
+.energy {
+    margin-left: 250px;
+}
+
+.contrribute {
+    height: 116px;
+    width: 631px;
+    margin-left: 600px;
+    font-size: 48px;
+    color: #FFF;
+    margin-top: -300px;
+}
+
+.volun {
+    height: 51px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 650px;
+    color: white;
+    border: none;
+    background-color: #70C174;
+}
+
+.volun2 {
+    position: absolute;
+    top: 3325px;
+    left: 900px;
+    height: 51px;
+    width: 116px;
+    /* margin-top: -350px;
+   margin-left: 950px; */
+    color: black;
+    border: none;
+    background-color: white;
+}
