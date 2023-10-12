@@ -25,3 +25,11 @@ function closeNavbar() {
 
 document.getElementById("join-open").addEventListener("click", openNavbar);
 document.getElementById("join-close").addEventListener("click", closeNavbar);
+
+// Project read more    main js media**********************
+const header = document.querySelector('header');
+const menuBtn = document.querySelector('.menu');
+
+menuBtn.addEventListener('click', () => {
+  header.classList.toggle('open');
+});
