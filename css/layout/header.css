@@ -15,6 +15,9 @@
    align-items: center;
    gap: 40px;
 }
+.nav__hero ul{
+list-style: none;
+}
 
 .nav__link {
    display: flex;
@@ -27,6 +30,7 @@
    font-style: normal;
    font-weight: 500;
    line-height: normal;
+   text-decoration: none;
 }
 
 .nav__link a:hover {
