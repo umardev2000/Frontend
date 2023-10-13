@@ -232,6 +232,10 @@ footer{
         gap: 50px;
     }
 }
+main
+{
+    padding: 50px 0;
+}
 
 .nonprofil{
     width: 100%;
@@ -239,7 +243,7 @@ footer{
 .work{
     position: relative;
     width: 100%;
-    padding: 90px 0  300px 0;
+    padding: 20px 0  300px 0;
 }
 .work_text{
     width: 100%;
@@ -266,6 +270,11 @@ footer{
     flex-direction: column;
     align-items: flex-start;
 }
+.work_title span{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
 .work_title h2{
     padding-top: 32px;
     width: 100%;
@@ -274,7 +283,7 @@ footer{
     line-height: 67px;
 }
 .work_description{
-    padding-top: 52px;
+    padding-top: 62px;
     max-width: 496px;
 }
 .work_description h4{
@@ -293,7 +302,315 @@ footer{
 }
 .work_video{
     max-width: 1280px;
+    position: absolute;
+    left: 0;
+    bottom: -200px;
 }
 .work_video img{
     width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+@media (max-width: 1240px){
+    .work_title h2{
+        font-size: 44px;
+        line-height: 54px;
+    }
+    .work_video{
+        bottom: -190px;
+    }
+}
+@media (max-width: 1100px) {
+    .work_title h2 {
+        font-size: 36px;
+        line-height: 45px;
+        width: 390px;
+    }
+    .work_description h4{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .work_description p{
+        font-size: 14px;
+    }
+    .work_video{
+        bottom: -180px;
+    }
+}
+@media (max-width: 978px){
+    .work{
+        padding: 10px 0 200px 0;
+    }
+    .work_texts{
+        flex-direction: column;
+    }
+    .work_title{
+        max-width: 978px;
+    }
+    .work_title h2{
+        width: 100%;
+        text-align: center;
+    }
+    .work_description{
+        max-width: 978px;
+        padding: 20px;
+    }
+    .work_description h4{
+        text-align: center;
+    }
+    .work_description p{
+        text-align: center;
+    }
+    .work_video{
+        bottom: -160px;
+    }
+}
+@media (max-width: 811px) {
+    .work_video{
+        bottom: -140px;
+    }
+}
+@media (max-width: 768px) {
+    .work{
+        padding: 10px 0 150px 0;
+    }
+    .work_video{
+        top: 410px;
+    }
+    .work_description h4{
+        height: 75px;
+    }
+    .work_description p{
+        height: 100px;
+    }
+    .work_video{
+        top: 470px;
+        left: 0;
+    }
+}
+@media (max-width: 576px){
+    .work{
+        padding: 10px 0 100px 0;
+    }
+    .work_line{
+        display: none;
+    }
+    .work_title h2{
+        font-size: 28px;
+    }
+    .work_description h4{
+        height: auto;
+        font-size: 16px;
+    }
+    .work_description p{
+        height: auto;
+    }
+    .work_video{
+        top: 450px;
+        width: 100%;
+    }
+}
+@media (max-width: 438px){
+    .work_video > img{
+        position: absolute;
+        left: 0;
+        bottom: 80px;
+        width: 100%;
+    }
+}
+
+.section_two{
+    background-color: #EFF7F2;
+    padding: 300px 0 80px 0;
+}
+.about_text{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.about_texts{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.mission, .vision{
+    max-width: 496px;
+}
+.mission span, .vision span, .supporters span{
+    color: #1D2130;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.mission h3,
+.vision h3{
+    font-size: 28px;
+    line-height: 34px;
+    color: #1D2130;
+    padding: 16px 0 8px 0;
+}
+.mission p, .vision p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #1D2130;
+}
+.supporters{
+    margin-top: 90px;
+    width: 100%;
+}
+.supporters_icons{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+.supporters_icons img{
+    width: 133px;
+}
+@media (max-width: 1100px){
+    .mission, .vision{
+        max-width: 410px;
+    }
+}
+@media (max-width: 1000px) {
+    .supporters span{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .supporters_icons{
+        justify-content: center;
+        gap: 50px;
+    }
+}
+@media (max-width: 978px){
+    .section_two{
+        padding: 180px 0 60px 0;
+    }
+    .about_texts{
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    .mission, .vision{
+        max-width: 650px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .mission h3,
+    .vision h3{
+        text-align: center;
+        max-width: 500px;
+    }
+    .mission p, .vision p{
+        text-align: center;
+    }
+}
+@media (max-width: 576px){
+    .section_two{
+        padding: 150px 0 60px 0;
+    }
+    .mission, .vision{
+        max-width: 440px;
+    }
+    .mission h3,
+    .vision h3{
+        font-size: 24px;
+        line-height: 32px;
+        max-width: 350px;
+    }
+}
+@media (max-width: 480px){
+    .section_two{
+        padding: 100px 0 60px;
+    }
+}
+
+.section_three{
+    width: 100%;
+    padding: 90px 0;
+}
+.recognition{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 45px;
+}
+.recognition h2{
+    width: 100%;
+    font-size: 48px;
+    color: #1D2130;
+    line-height: 56px;
+    text-align: center;
+}
+.recognition_cards{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+.recognition_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.recognition_card h3{
+    font-size: 24px;
+    line-height: 35px;
+    color: #1D2130;
+    margin-top: 16px 0 5px 0;
+    font-weight: 700;
+}
+.recognition_card h4{
+    color: #1D2130;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 4px;
+    font-weight: 700;
+}
+.recognition_card span{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #1D2130;
+    opacity: 0.6;
+    font-weight: 600;
+}
+@media (max-width: 768px){
+    .recognition h2{
+        font-size: 40px;
+        line-height: 48px;
+    }
+}
+@media (max-width: 480px){
+    .recognition h2{
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .recognition_cards{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+.raised{
+    background-color: #0B0706;
+    padding: 64px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 12px;
+}
+.raised_text{
+    padding-left: 96px;
 }
