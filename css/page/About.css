@@ -942,7 +942,7 @@ main
     .news_title{
         justify-content: center;
     }
-    .news h2{
+    .news_title h2{
         font-size: 36px;
         max-width: 500px;
         width: 100%;
