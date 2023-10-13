@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+body {
+  font-family: sans-serif;
+}
+
+img {
+  padding-top: 24px;
+  padding-left: 584px;
+}
+.par2 {
+  color: #1d2130;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 56px */
+}
+.par1 {
+  padding-top: 48px;
+  padding-left: 48px;
+}
+.par4 {
+  color: var(--Secondary-text, #525560);
+
+  /* Paragraph small */
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 22.4px */
+}
+.par3 {
+  padding: 16px 48px 48px 32px;
+}
+.par6 {
+  padding-left: 32px;
+}
+#fname {
+  color: var(--Primary-text, #1d2130);
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 19.2px */
+  border: none;
+}
+.par7 {
+  margin-top: 38px;
+  width: 256px;
+  height: 1px;
+  background: #e5e5e5;
+}
+.par5 {
+  display: flex;
+  gap: 32px;
+}
+.par9 {
+  padding-top: 32px;
+  padding-left: 32px;
+}
+.par10 {
+  width: 544px;
+  height: 1px;
+  background: #e5e5e5;
+  margin-top: 38px;
+}
+.par13 {
+  color: var(--Primary-text, #1d2130);
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 19.2px */
+  opacity: 0.6;
+  margin-top: 32px;
+  margin-left: 32px;
+}
+#ms {
+  margin-left: 32px;
+  width: 544px;
+  height: 156px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid var(--Border, #e5e5e5);
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-bottom: 110px;
+}
+.btn2 {
+  color: #fff;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+}
+.btn {
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: var(--Green-primary, #70c174);
+  backdrop-filter: blur(40px);
+  margin-top: 42px;
+  margin-left: 32px;
+}
