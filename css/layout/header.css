@@ -7,7 +7,9 @@
 a {
     text-decoration: none;
 }
-
+li{
+    list-style: none;
+}
 .navbar__container {
     display: flex;
     justify-content: space-between;
@@ -30,21 +32,12 @@ list-style: none;
 }
 
 .nav__link a {
-<<<<<<< HEAD
    color: var(--secondary-text);
    font-size: 16px;
    font-style: normal;
    font-weight: 500;
    line-height: normal;
    text-decoration: none;
-=======
-    color: var(--secondary-text);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-decoration: none;
->>>>>>> f4f37d79374f545ad2eb0f30370cd984d8f9d4b3
 }
 
 .nav__link a:hover {
@@ -53,7 +46,6 @@ list-style: none;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    text-decoration: underline;
 }
 
 .nav__btn button {
