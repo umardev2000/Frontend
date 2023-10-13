@@ -6,11 +6,29 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 70px;
+}
+a{
+    text-decoration: none
+}
+li{
+    list-style: none;
+}
+.navbar_chekbox{
+    display: none;
 }
 .navbar_title{
     display: flex;
     align-items: center;
     gap: 40px;
+}
+.navbar_link:link, .navbar_link:visited{
+    font-size: 16px;
+    line-height: 18px;
+    color: #525560 !important;
+}
+.navbar_link:hover, .navbar_link:active{
+    color: #0B0706;
 }
 .nav_label{
     display: none;
