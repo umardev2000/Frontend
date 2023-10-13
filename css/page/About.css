@@ -808,7 +808,7 @@ main
     background-image: url(../../images/about/join.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     border-radius: 13px;
     height: 380px;
     display: flex;
@@ -854,4 +854,114 @@ main
     border-color: #fff;
     color: #fff;
     background-color: transparent;
+}
+
+@media (max-width: 768px){
+    .contribute{
+        padding: 20px;
+    }
+    .contribute h2{
+        text-align: center;
+        font-size: 32px;
+        line-height: 45px;
+    }
+}
+
+@media (max-width: 480px){
+    .contribute h2{
+        max-width: 360px;
+        font-size: 28px;
+        width: 100%;
+    }
+    .contribute_btn{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.news{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.news_title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 48px;
+}
+.news_title h2{
+    color: #1D2130;
+    font-size: 48px;
+    line-height: 56px;
+    max-width: 356px;
+    width: 100%;
+}
+.news_line{
+    width: 70.3%;
+    height: 1px;
+    background-color: #E5E5E5;
+}
+.news_cards{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 42px 24px;
+}
+.news_card{
+    max-width: 302px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.news_card img{
+    width: 100%;
+}
+.news_card h4{
+    font-size: 19px;
+    font-weight: 600;
+    color: #1C1D28;
+    line-height: 26px;
+    margin: 16px 0 8px 0;
+}
+.news_card p{
+    color: #525560;
+    font-size: 16px;
+    line-height: 25px;
+}
+@media (max-width: 1320px){
+    .news_cards{
+        justify-content: space-around;
+    }
+}
+@media (max-width: 768px){
+    .news_title{
+        justify-content: center;
+    }
+    .news h2{
+        font-size: 36px;
+        max-width: 500px;
+        width: 100%;
+        text-align: center;
+    }
+    .news_line{
+        display: none;
+    }
+}
+
+@media (maxwidth: 667px){
+    .news_card{
+        align-items: center;
+        justify-content: center;
+    }
+    .news_card h4{
+        text-align: center;
+    }
+    .news_card p{
+        text-align: center;
+    }
 }
