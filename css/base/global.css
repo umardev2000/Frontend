@@ -1,9 +1,6 @@
 /* Dev Zokirov 11.10.2023 */
 
 @import "fonts.css";
-
-/* @import "reset.css"; */
-
 @import "../layout/container.css";
 @import "../layout/header.css";
 @import "../layout/footer.css";
